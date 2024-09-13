@@ -1,1 +1,0 @@
-window.SIDEBAR_ITEMS = {"constant":["ENGLISH_JOKES","PORTUGUESE_JOKES"],"fn":["get_jokes_by_language","get_random_joke"],"struct":["Joke"]};
