@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"jokes_rust":[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.81.0/core/marker/trait.StructuralPartialEq.html\" title=\"trait core::marker::StructuralPartialEq\">StructuralPartialEq</a> for <a class=\"struct\" href=\"jokes_rust/struct.Joke.html\" title=\"struct jokes_rust::Joke\">Joke</a>"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
