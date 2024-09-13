@@ -1,7 +1,15 @@
 [package]
-name = "jokes_rust"
+name = "jokes-rust"
 version = "0.0.1"
 edition = "2021"
+authors = ["Gareth Thomas"]
+license = "MIT OR Apache-2.0"
+description = "A tool to that tells random jokes"
+readme = "README.md"
+homepage = "https://github.com/versionbaygt/jokes_rust"
+repository = "https://github.com/versionbaygt/jokes_rust"
+keywords = ["cli", "jokes", "demo"]
+categories = ["command-line-utilities"]
 
 [dependencies]
 rand = "0.8"
