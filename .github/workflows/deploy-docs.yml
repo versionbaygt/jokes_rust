@@ -32,7 +32,10 @@ jobs:
       - name: Build Documentation
         run: |
           cargo doc --no-deps
-          "echo '<meta http-equiv=\"refresh\" content=\"0; url={{crate_name}}/index.html\" />' > target/doc/index.html"
+          ls target/doc
+          echo "one"
+          "echo '<meta http-equiv=\"refresh\" content=\"0; url={{crate_name}}/index.html\" />'"
+          "echo '<meta http-equiv=\"refresh\" content=\"0; url={{crate_name}}/index.html\" />'" > target/doc/index.html"
         shell: bash
     
 
