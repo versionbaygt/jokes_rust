@@ -33,7 +33,6 @@ jobs:
         run: |
           cargo doc --no-deps
           echo '<meta http-equiv=\"refresh\" content=\"0; url=/jokes_rust/index.html\" />' > target/doc/index.html
-          https://versionbaygt.github.io/jokes_rust/jokes_rust/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
