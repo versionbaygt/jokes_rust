@@ -32,7 +32,7 @@ jobs:
       - name: Build Documentation
         run: |
           cargo doc --no-deps
-          echo '<meta http-equiv=\"refresh\" content=\"0; url=jokes_rust/jokes_rust_index.html\" />' > target/doc/index.html
+          echo '<meta http-equiv=\"refresh\" content=\"0; url=jokes_rust/jokes_rust/index.html\" />' > target/doc/index.html
     
 
       - name: Upload artifact
