@@ -33,7 +33,8 @@ jobs:
         run: |
           cargo doc --no-deps
           echo '<meta http-equiv=\"refresh\" content=\"0; url=jokes_rust/index.html\" />'
-          "echo '<meta http-equiv=\"refresh\" content=\"0; url={{crate_name}}/index.html\" />'" > target/doc/index.html"
+          echo "lol"
+          echo '<meta http-equiv=\"refresh\" content=\"0; url=jokes_rust/index.html\" />' > target/doc/index.html
     
 
       - name: Upload artifact
