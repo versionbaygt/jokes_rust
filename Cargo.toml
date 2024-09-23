@@ -1,6 +1,6 @@
 [package]
 name = "jokes-rust"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["Gareth Thomas"]
 license = "MIT OR Apache-2.0"
@@ -14,4 +14,6 @@ categories = ["command-line-utilities"]
 [dependencies]
 rand = "0.8"
 clap = { version = "4.0", features = ["derive"] }
+regex = "1.10.6"
+
 
