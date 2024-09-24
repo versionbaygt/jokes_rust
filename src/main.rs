@@ -4,6 +4,7 @@ use regex::Regex;
 use std::collections::HashMap;
 
 /// CLI tool to get random jokes in different languages from an embedded Markdown file
+#[doc = include_str!("../resources/jokes.md")]
 #[derive(Parser)]
 #[command(name = "jokes-rust")]
 #[command(about = "A simple CLI that tells jokes in different languages from an embedded markdown file.")]
@@ -36,6 +37,14 @@ fn parse_jokes_from_md(contents: &str) -> HashMap<String, Vec<String>> {
 
     jokes
 }
+
+/// # Jokes-Rust CLI Documentation
+///
+/// This CLI tool tells random jokes from an embedded Markdown file. Here's the content of `jokes.md`:
+///
+/// ```markdown
+
+/// ```
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let args = Args::parse();
