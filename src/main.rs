@@ -9,7 +9,7 @@ use std::collections::HashMap;
 #[command(name = "jokes-rust")]
 #[command(about = "A simple CLI that tells jokes in different languages from an embedded markdown file.")]
 struct Args {
-    /// Language code for the joke (e.g., 'en', 'es')
+    /// Language code for the joke (e.g., 'en', 'pt')
     #[arg(short, long, default_value = "en")]
     language: String,
 }
