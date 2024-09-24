@@ -15,5 +15,6 @@ categories = ["command-line-utilities"]
 rand = "0.8"
 clap = { version = "4.0", features = ["derive"] }
 regex = "1.10.6"
+criterion = "0.4"  
 
 
